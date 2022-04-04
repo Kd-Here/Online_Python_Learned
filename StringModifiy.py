@@ -23,6 +23,9 @@ for ad in b:
     if(ad!=" "):
         print(ad,end="")
 """
+from tracemalloc import start
+
+
 print("\n")
 #Case 5 how to replace a character from our stirng:-
 """
@@ -55,3 +58,17 @@ word_find(value,"k")
 print(place_hold.split())
 """
 
+# Case 8 python creating function that gives str in format of list
+# afs="Hello, World! KD herfe"
+# print("[",end="")
+# for ad in afs:
+#     if ad!=" ":
+#         print(ad,end="")
+#         # print(f"{ad}")
+#     else:
+#         print("",end="")
+# print("]")
+
+
+
+#
