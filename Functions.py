@@ -35,7 +35,26 @@ def multiplication_Table_3(a):
 print(multiplication_Table_3(10))
 """
 
+"""
+#Use * in parameter if we don't know number of arguments we will pass in same parameter
 
+def my_kids(*kids):
+    for i in range(len(kids)):
+        print("The Children name are ",kids[i])
+
+my_kids("Kd1", "Kd2", "Kd3")
+"""
+"""
+#Use ** in parameter if\
+def abca(**kid):
+  print("The middle boy is named and know " + kid["second"])
+
+abca(first = "Kd1", second = "Kd2")
+"""
+
+
+
+"""
 #Recurssion Function
 def fact(a):
     if a>0:
@@ -45,3 +64,4 @@ def fact(a):
         mul=0
     return mul
 fact(10)
+"""
