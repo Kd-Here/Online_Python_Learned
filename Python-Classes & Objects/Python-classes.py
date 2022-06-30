@@ -16,6 +16,7 @@
 class Person:
 
   # this is for variables or for object property / attributes
+  
   def __init__(self, name, age):
     self.name = name
     self.age = age
